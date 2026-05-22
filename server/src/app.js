@@ -13,7 +13,7 @@ app.get("/api/hello", (_req, res) => {
 });
 
 // All other routes go to React
-app.get("*", (_req, res) => {
+app.get("/{*path}", (_req, res) => {
   res.sendFile(path.join(__dirname, "../../client/dist/index.html"));
 });
 
