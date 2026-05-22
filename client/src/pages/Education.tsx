@@ -3,7 +3,7 @@ const education = [
     degree: "BS in Computer Science & Business",
     concentration: "Concentration in Supply Chain Management",
     school: "Northeastern University",
-    period: "May 2026",
+    period: "April 2026",
     highlights: [
       "Study Abroad: New College of the Humanities, London, UK — Fall 2021",
     ],

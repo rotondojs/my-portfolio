@@ -6,7 +6,7 @@ export default function About() {
         <h1 className="hero-name">John S. Rotondo</h1>
         <p className="hero-role">CS & Business Student · Software Engineer</p>
         <p className="hero-description">
-          I'm a Northeastern University student graduating in May 2026 with a BS in Computer
+          I'm a Northeastern University student graduating in April 2026 with a BS in Computer
           Science and a concentration in Supply Chain Management. I build full-stack web
           applications and have professional experience in both software engineering and
           financial crimes compliance.
@@ -27,9 +27,9 @@ export default function About() {
       <div className="about-grid" style={{ marginTop: "16px" }}>
         {[
           { label: "Location", value: "Boston, MA" },
-          { label: "Education", value: "Northeastern University, May 2026" },
+          { label: "Education", value: "Northeastern University, April 2026" },
           { label: "Current Stack", value: "TypeScript, React, Node.js, SQL" },
-          { label: "Phone", value: "571-550-0376" },
+          { label: "Open To", value: "New opportunities" },
         ].map((item) => (
           <div className="card" key={item.label} style={{ margin: 0 }}>
             <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>
