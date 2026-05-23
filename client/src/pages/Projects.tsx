@@ -17,7 +17,7 @@ const projects = [
   {
     name: "Bazaar Game",
     url: "https://github.com/rotondojs/Bazaar-Game/blob/main/README.md",
-    period: "",
+    period: "Feb 2025 — Apr 2025",
     description:
       "Full digital implementation of the Bazaar board game with networked multiplayer, a tree-search AI, and a pygame replay viewer.",
     bullets: [
