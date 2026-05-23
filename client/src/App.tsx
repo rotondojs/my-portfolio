@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
-import Interests from "./pages/Interests";
+import AIExperience from "./pages/AIExperience";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
-          <Route path="/interests" element={<Interests />} />
+          <Route path="/ai-experience" element={<AIExperience />} />
         </Routes>
       </div>
     </BrowserRouter>
