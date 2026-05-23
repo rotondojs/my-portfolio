@@ -15,6 +15,21 @@ const projects = [
     status: "Completed",
   },
   {
+    name: "Bazaar Game",
+    url: "",
+    period: "",
+    description:
+      "Full digital implementation of the Bazaar board game with networked multiplayer, a tree-search AI, and a pygame replay viewer.",
+    bullets: [
+      "Full digital implementation of Bazaar — all core mechanics including pebble trading, bidirectional equation exchanges, card purchasing, and dynamic scoring enforced by a rule engine fully decoupled from game state.",
+      "Networked multiplayer via client/server architecture — TCP sockets with a custom JSON protocol allow remote players to compete across machines, with the referee handling timeouts and invalid moves gracefully.",
+      "Tree-search AI — explores thousands of trade and purchase sequences up to four levels deep, selecting the optimal play using a multi-criteria tie-breaking system.",
+      "pygame replay viewer — captures every game state after each individual action, letting users step through the entire game move by move with a full visual breakdown of the board.",
+    ],
+    tags: ["Python", "TCP Sockets", "JSON", "pygame", "AI", "Game Engine"],
+    status: "Completed",
+  },
+  {
     name: "Book & Media Recommendation App",
     url: "",
     period: "Mar 2024 — Apr 2024",
