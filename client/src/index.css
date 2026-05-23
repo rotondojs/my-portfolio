@@ -7,15 +7,15 @@
 :root {
   --topbar-height: 60px;
   --sidebar-width: 240px;
-  --bg: #1e3a6e;
-  --surface: #2d5a9e;
-  --surface-hover: #3668b0;
-  --border: #4a7ac8;
-  --accent: #7dd3fc;
-  --accent-hover: #bae6fd;
+  --bg: #2d5a9e;
+  --surface: #00b0ff;
+  --surface-hover: #0099e0;
+  --border: #29ccff;
+  --accent: #e0f7ff;
+  --accent-hover: #ffffff;
   --text-primary: #f0f8ff;
-  --text-secondary: #93c5fd;
-  --text-muted: #60a5fa;
+  --text-secondary: #cce8ff;
+  --text-muted: #99d6ff;
   --radius: 10px;
 }
 
@@ -127,7 +127,7 @@ body {
 
 .sidebar-link.active {
   color: var(--accent);
-  background: rgba(125, 211, 252, 0.12);
+  background: rgba(0, 176, 255, 0.15);
 }
 
 .sidebar-icon {
@@ -225,9 +225,9 @@ body {
   font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(125, 211, 252, 0.12);
+  background: rgba(0, 176, 255, 0.15);
   color: var(--accent);
-  border: 1px solid rgba(125, 211, 252, 0.25);
+  border: 1px solid rgba(0, 176, 255, 0.3);
 }
 
 /* ── Hero (Home page) ────────────────────────────────────── */
