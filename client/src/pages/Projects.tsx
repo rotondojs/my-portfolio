@@ -2,6 +2,7 @@ const projects = [
   {
     name: "VersusHQ",
     url: "https://spring26-project-spring26-project-group-2770.onrender.com/",
+    image: "",
     period: "Jan 2026 — Feb 2026",
     description:
       "Real-time full-stack web application for multiplayer gaming sessions with live game feeds, chat, and move history.",
@@ -17,14 +18,15 @@ const projects = [
   {
     name: "Bazaar Game",
     url: "https://github.com/rotondojs/Bazaar-Game/blob/main/README.md",
+    image: "",
     period: "Feb 2025 — Apr 2025",
     description:
       "Full digital implementation of the Bazaar board game with networked multiplayer, a tree-search AI, and a pygame replay viewer.",
     bullets: [
-      "Full digital implementation of Bazaar — all core mechanics including pebble trading, bidirectional equation exchanges, card purchasing, and dynamic scoring enforced by a rule engine fully decoupled from game state.",
-      "Networked multiplayer via client/server architecture — TCP sockets with a custom JSON protocol allow remote players to compete across machines, with the referee handling timeouts and invalid moves gracefully.",
-      "Tree-search AI — explores thousands of trade and purchase sequences up to four levels deep, selecting the optimal play using a multi-criteria tie-breaking system.",
-      "pygame replay viewer — captures every game state after each individual action, letting users step through the entire game move by move with a full visual breakdown of the board.",
+      "Built a full digital implementation of Bazaar with all core mechanics including pebble trading, bidirectional equation exchanges, card purchasing, and dynamic scoring enforced by a rule engine fully decoupled from game state.",
+      "Architected networked multiplayer via client/server TCP sockets with a custom JSON protocol, enabling remote players to compete across machines with a referee system handling timeouts and invalid moves gracefully.",
+      "Developed a tree-search AI that explores thousands of trade and purchase sequences up to four levels deep, selecting optimal plays using a multi-criteria tie-breaking system.",
+      "Implemented a pygame replay viewer that captures every game state after each action, allowing users to step through the entire game move by move with a full visual breakdown of the board.",
     ],
     tags: ["Python", "TCP Sockets", "JSON", "pygame", "AI", "Game Engine"],
     status: "Completed",
@@ -32,6 +34,7 @@ const projects = [
   {
     name: "Book & Media Recommendation App",
     url: "",
+    image: "",
     period: "Mar 2024 — Apr 2024",
     description:
       "Full-stack application to record, suggest, and rate books and media using a relational database and dynamic tagging system.",
@@ -47,6 +50,7 @@ const projects = [
   {
     name: "Portfolio",
     url: "",
+    image: "",
     period: "2026",
     description:
       "This personal website. A React + Vite frontend served by an Express backend, deployed on Render.",
@@ -64,6 +68,20 @@ export default function Projects() {
 
       {projects.map((p) => (
         <div className="card" key={p.name}>
+          {p.image && (
+            <img
+              src={p.image}
+              alt={`${p.name} screenshot`}
+              style={{
+                width: "100%",
+                borderRadius: "6px",
+                marginBottom: "16px",
+                objectFit: "cover",
+                maxHeight: "260px",
+                border: "1px solid var(--border)",
+              }}
+            />
+          )}
           <div className="card-header">
             <div>
               {p.url ? (
