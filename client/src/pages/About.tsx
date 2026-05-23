@@ -4,7 +4,7 @@ export default function About() {
       <div className="hero">
         <p className="hero-greeting">Hello, world —</p>
         <h1 className="hero-name">John S. Rotondo</h1>
-        <p className="hero-role">CS & Business Student · Software Engineer</p>
+        <p className="hero-role">Aspiring Full Stack Developer | Compliance & Data Analyst | Supply Chain Management</p>
         <p className="hero-description">
           I'm a Northeastern University student graduating in April 2026 with a BS in Computer
           Science and a concentration in Supply Chain Management. I build full-stack web
