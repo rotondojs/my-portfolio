@@ -32,10 +32,10 @@ export default function About() {
           { label: "Open To", value: "New opportunities" },
         ].map((item) => (
           <div className="card" key={item.label} style={{ margin: 0 }}>
-            <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>
+            <p style={{ fontSize: "0.75rem", color: "#6b7280", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>
               {item.label}
             </p>
-            <p style={{ fontWeight: 600, color: "var(--text-primary)" }}>{item.value}</p>
+            <p style={{ fontWeight: 600, color: "#1a1a1a" }}>{item.value}</p>
           </div>
         ))}
       </div>

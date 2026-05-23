@@ -121,7 +121,7 @@ export default function Projects() {
           {p.bullets.length > 0 && (
             <ul style={{ marginTop: "12px", paddingLeft: "20px", display: "flex", flexDirection: "column", gap: "6px" }}>
               {p.bullets.map((b, i) => (
-                <li key={i} style={{ fontSize: "0.875rem", color: "var(--text-secondary)" }}>{b}</li>
+                <li key={i} style={{ fontSize: "0.875rem", color: "#374151" }}>{b}</li>
               ))}
             </ul>
           )}

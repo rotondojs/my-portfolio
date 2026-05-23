@@ -36,7 +36,7 @@ export default function Education() {
             <div>
               <p className="card-title">{ed.degree}</p>
               {ed.concentration && (
-                <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "2px" }}>{ed.concentration}</p>
+                <p style={{ fontSize: "0.85rem", color: "#6b7280", marginTop: "2px" }}>{ed.concentration}</p>
               )}
               <p className="card-subtitle" style={{ marginTop: "4px" }}>{ed.school}</p>
             </div>
@@ -44,13 +44,13 @@ export default function Education() {
           </div>
           <ul style={{ marginTop: "12px", paddingLeft: "20px", display: "flex", flexDirection: "column", gap: "4px" }}>
             {ed.highlights.map((h) => (
-              <li key={h} style={{ fontSize: "0.875rem", color: "var(--text-secondary)" }}>{h}</li>
+              <li key={h} style={{ fontSize: "0.875rem", color: "#374151" }}>{h}</li>
             ))}
           </ul>
         </div>
       ))}
 
-      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, color: "var(--text-primary)", margin: "32px 0 16px" }}>
+      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, color: "#1a1a1a", margin: "32px 0 16px" }}>
         Skills
       </h2>
       {Object.entries(skills).map(([category, items]) => (
