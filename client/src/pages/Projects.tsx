@@ -1,6 +1,7 @@
 const projects = [
   {
-    name: "Game Nite",
+    name: "VersusHQ",
+    url: "https://spring26-project-spring26-project-group-2770.onrender.com/",
     period: "Jan 2026 — Feb 2026",
     description:
       "Real-time full-stack web application for multiplayer gaming sessions with live game feeds, chat, and move history.",
@@ -15,6 +16,7 @@ const projects = [
   },
   {
     name: "Book & Media Recommendation App",
+    url: "",
     period: "Mar 2024 — Apr 2024",
     description:
       "Full-stack application to record, suggest, and rate books and media using a relational database and dynamic tagging system.",
@@ -29,6 +31,7 @@ const projects = [
   },
   {
     name: "Portfolio",
+    url: "",
     period: "2026",
     description:
       "This personal website. A React + Vite frontend served by an Express backend, deployed on Render.",
@@ -48,7 +51,24 @@ export default function Projects() {
         <div className="card" key={p.name}>
           <div className="card-header">
             <div>
-              <p className="card-title">{p.name}</p>
+              {p.url ? (
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="card-title"
+                  style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "6px" }}
+                >
+                  {p.name}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.5 }}>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              ) : (
+                <p className="card-title">{p.name}</p>
+              )}
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
               <span className="card-meta">{p.period}</span>
