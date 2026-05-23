@@ -4,12 +4,12 @@ export default function About() {
       <div className="hero">
         <p className="hero-greeting">Hello, world —</p>
         <h1 className="hero-name">John S. Rotondo</h1>
-        <p className="hero-role">Aspiring Full Stack Developer | Compliance & Data Analyst | Supply Chain Management</p>
+        <p className="hero-role">Aspiring Full Stack Developer | Compliance & Data Analyst | Supply Chain Analyst</p>
         <p className="hero-description">
-          I'm a Northeastern University student graduating in April 2026 with a BS in Computer
-          Science and a concentration in Supply Chain Management. I build full-stack web
-          applications and have professional experience in both software engineering and
-          financial crimes compliance.
+          Recent computer science and business graduate from Northeastern University with experience in financial crimes compliance, IT engineering, and full-stack development. 
+          Most recently a Financial Crimes Compliance Analyst at Protiviti, where I investigated transaction monitoring alerts and supported AML/KYC regulatory efforts. 
+          I've also built full-stack apps in TypeScript and React, designed relational databases, and led a company-wide Windows 11 deployment at Alkermes supporting 500+ users. 
+          Currently open to full-time employment in software engineering, supply chain management, and data analytics.
         </p>
         <div className="hero-actions">
           <a href="/projects" className="btn btn-primary">

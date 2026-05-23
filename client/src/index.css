@@ -7,9 +7,9 @@
 :root {
   --topbar-height: 60px;
   --sidebar-width: 240px;
-  --bg: #2d5a9e;
-  --surface: #00b0ff;
-  --surface-hover: #0099e0;
+  --bg: #4a7ec8;
+  --surface: #0088cc;
+  --surface-hover: #0077b5;
   --border: #29ccff;
   --accent: #e0f7ff;
   --accent-hover: #ffffff;
@@ -289,12 +289,12 @@ body {
 }
 
 .btn-primary {
-  background: var(--accent);
+  background: #005f99;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background: var(--accent-hover);
+  background: #004d7a;
 }
 
 .btn-outline {
