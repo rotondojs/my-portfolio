@@ -23,7 +23,7 @@ export default function About() {
 
       <hr className="divider" />
 
-      <h2 className="page-title" style={{ fontSize: "1.4rem" }}>Quick Facts</h2>
+      <h2 className="page-title" style={{ fontSize: "1.4rem", color: "#ffffff" }}>Quick Facts</h2>
       <div className="about-grid" style={{ marginTop: "16px" }}>
         {[
           { label: "Location", value: "Boston, MA" },

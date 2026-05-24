@@ -90,7 +90,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="card-title"
-                  style={{ textDecoration: "none", color: "inherit", display: "inline-flex", alignItems: "center", gap: "6px" }}
+                  style={{ textDecoration: "none", color: "#000000", display: "inline-flex", alignItems: "center", gap: "6px" }}
                 >
                   {p.name}
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.5 }}>

@@ -50,7 +50,7 @@ export default function Education() {
         </div>
       ))}
 
-      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, color: "#1a1a1a", margin: "32px 0 16px" }}>
+      <h2 style={{ fontSize: "1.1rem", fontWeight: 600, color: "#ffffff", margin: "32px 0 16px" }}>
         Skills
       </h2>
       {Object.entries(skills).map(([category, items]) => (

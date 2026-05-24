@@ -201,14 +201,14 @@ body {
 .page-title {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #ffffff;
   margin-bottom: 6px;
   letter-spacing: -0.03em;
 }
 
 .page-subtitle {
   font-size: 1rem;
-  color: var(--text-secondary);
+  color: #e0f0ff;
   margin-bottom: 36px;
 }
 
@@ -225,9 +225,9 @@ body {
   font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(0, 176, 255, 0.15);
-  color: var(--accent);
-  border: 1px solid rgba(0, 176, 255, 0.3);
+  background: rgba(0, 136, 204, 0.1);
+  color: #111111;
+  border: 1px solid rgba(0, 136, 204, 0.25);
 }
 
 /* ── Hero (Home page) ────────────────────────────────────── */
@@ -240,7 +240,7 @@ body {
 
 .hero-greeting {
   font-size: 1rem;
-  color: var(--accent);
+  color: #e0f0ff;
   font-weight: 500;
   letter-spacing: 0.05em;
 }
@@ -248,7 +248,7 @@ body {
 .hero-name {
   font-size: 3rem;
   font-weight: 800;
-  color: var(--text-primary);
+  color: #ffffff;
   letter-spacing: -0.04em;
   line-height: 1.1;
 }
@@ -256,13 +256,13 @@ body {
 .hero-role {
   font-size: 1.4rem;
   font-weight: 500;
-  color: var(--text-secondary);
+  color: #e0f0ff;
   letter-spacing: -0.02em;
 }
 
 .hero-description {
   font-size: 1rem;
-  color: var(--text-secondary);
+  color: #e0f0ff;
   max-width: 560px;
   line-height: 1.7;
 }
@@ -299,18 +299,19 @@ body {
 
 .btn-outline {
   background: transparent;
-  color: var(--text-primary);
-  border: 1px solid var(--border);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .btn-outline:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: #ffffff;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .divider {
   border: none;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #e5e7eb;
   margin: 32px 0;
 }
 
