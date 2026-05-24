@@ -2,8 +2,7 @@ export default function About() {
   return (
     <div className="page">
       <div className="hero">
-        <p className="hero-greeting">Hello, world —</p>
-        <h1 className="hero-name">John S. Rotondo</h1>
+<h1 className="hero-name">John S. Rotondo</h1>
         <p className="hero-role">Aspiring Full Stack Developer | Compliance & Data Analyst | Supply Chain Analyst</p>
         <p className="hero-description">
           Recent computer science and business graduate from Northeastern University with experience in financial crimes compliance, IT engineering, and full-stack development. 
@@ -11,14 +10,9 @@ export default function About() {
           I've also built full-stack apps in TypeScript and React, designed relational databases, and led a company-wide Windows 11 deployment at Alkermes supporting 500+ users. 
           Currently open to full-time employment in software engineering, supply chain management, and data analytics.
         </p>
-        <div className="hero-actions">
-          <a href="/projects" className="btn btn-primary">
-            View Projects
-          </a>
-          <a href="mailto:rotondo.j@northeastern.edu" className="btn btn-outline">
-            Get in Touch
-          </a>
-        </div>
+        <a href="mailto:rotondo.j@northeastern.edu" className="btn btn-outline">
+          Get in Touch
+        </a>
       </div>
 
       <hr className="divider" />
