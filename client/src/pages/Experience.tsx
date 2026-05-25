@@ -42,7 +42,7 @@ export default function Experience() {
             </div>
             <ul style={{ marginTop: "12px", paddingLeft: "20px", display: "flex", flexDirection: "column", gap: "6px" }}>
               {exp.bullets.map((b, j) => (
-                <li key={j} style={{ fontSize: "0.875rem", color: "#374151" }}>{b}</li>
+                <li key={j} style={{ fontSize: "0.875rem", color: "rgba(255,255,255,0.85)" }}>{b}</li>
               ))}
             </ul>
             <div className="tags">

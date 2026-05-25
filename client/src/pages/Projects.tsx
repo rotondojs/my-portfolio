@@ -90,7 +90,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="card-title"
-                  style={{ textDecoration: "none", color: "#000000", display: "inline-flex", alignItems: "center", gap: "6px" }}
+                  style={{ textDecoration: "none", color: "#ffffff", display: "inline-flex", alignItems: "center", gap: "6px" }}
                 >
                   {p.name}
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.5 }}>
@@ -121,7 +121,7 @@ export default function Projects() {
           {p.bullets.length > 0 && (
             <ul style={{ marginTop: "12px", paddingLeft: "20px", display: "flex", flexDirection: "column", gap: "6px" }}>
               {p.bullets.map((b, i) => (
-                <li key={i} style={{ fontSize: "0.875rem", color: "#374151" }}>{b}</li>
+                <li key={i} style={{ fontSize: "0.875rem", color: "rgba(255,255,255,0.85)" }}>{b}</li>
               ))}
             </ul>
           )}

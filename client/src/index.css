@@ -7,7 +7,7 @@
 :root {
   --topbar-height: 60px;
   --sidebar-width: 240px;
-  --bg: #1a56b0;
+  --bg: #071d45;
   --surface: #0088cc;
   --surface-hover: #0077b5;
   --border: #29ccff;
@@ -29,7 +29,7 @@ body {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-  background-size: 24px 24px;
+  background-size: 16px 16px;
   color: var(--text-primary);
   line-height: 1.6;
 }
@@ -186,16 +186,26 @@ body {
 
 /* ── Cards ───────────────────────────────────────────────── */
 .card {
-  background: #ffffff;
-  border: 1px solid #d1d5db;
+  position: relative;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius);
   padding: 24px;
   margin-bottom: 16px;
-  transition: border-color 0.15s;
+  transition: border-color 0.2s;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(ellipse at center, #1a4a8a 0%, #071d45 100%);
+  z-index: -1;
 }
 
 .card:hover {
-  border-color: #0088cc;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .card-header {
@@ -210,24 +220,24 @@ body {
 .card-title {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #ffffff;
 }
 
 .card-subtitle {
   font-size: 0.875rem;
-  color: #0088cc;
+  color: #93c5fd;
   font-weight: 500;
 }
 
 .card-meta {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: rgba(255, 255, 255, 0.6);
   white-space: nowrap;
 }
 
 .card-body {
   font-size: 0.9rem;
-  color: #374151;
+  color: rgba(255, 255, 255, 0.85);
   margin-top: 8px;
 }
 
@@ -261,9 +271,9 @@ body {
   font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(0, 136, 204, 0.1);
-  color: #111111;
-  border: 1px solid rgba(0, 136, 204, 0.25);
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 /* ── Hero (Home page) ────────────────────────────────────── */
@@ -376,16 +386,26 @@ body {
 }
 
 .interest-card {
-  background: #ffffff;
-  border: 1px solid #d1d5db;
+  position: relative;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius);
   padding: 20px;
   text-align: center;
-  transition: border-color 0.15s, transform 0.15s;
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.interest-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(ellipse at center, #1a4a8a 0%, #071d45 100%);
+  z-index: -1;
 }
 
 .interest-card:hover {
-  border-color: #0088cc;
+  border-color: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
 }
 
@@ -397,11 +417,11 @@ body {
 .interest-name {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #ffffff;
 }
 
 .interest-desc {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 4px;
 }
